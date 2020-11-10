@@ -1,0 +1,17 @@
+services:
+  homelifeapi:
+    build:
+      context: /Users/JMorantes/Documents/Universidad PoliGran/Integracion continua
+        /HomeLife/HomeLifeApi
+      dockerfile: HomeLifeApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: homelifeapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/JMorantes/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/JMorantes/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

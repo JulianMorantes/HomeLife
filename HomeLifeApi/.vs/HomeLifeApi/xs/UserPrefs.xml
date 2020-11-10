@@ -10,10 +10,7 @@
         <State name="__root__">
           <Node name="HomeLifeApi" expanded="True">
             <Node name="HomeLifeApi" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Dockerfile" selected="True" />
             </Node>
           </Node>
         </State>
@@ -22,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.HomeLife__Repository FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.HomeLife__Models FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.HomeLifeApi FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.HomeLifeApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
