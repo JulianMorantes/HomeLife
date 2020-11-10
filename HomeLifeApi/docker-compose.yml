@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  homelifeapi:
+    image: ${DOCKER_REGISTRY-}homelifeapi
+    build:
+      context: .
+      dockerfile: HomeLifeApi/Dockerfile
